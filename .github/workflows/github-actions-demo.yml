@@ -7,15 +7,13 @@ on:
 jobs:
   init:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./JS
     strategy:
       matrix:
         node-version: [ 17.x ]
     steps:
       - uses: actions/checkout@v2
       - name: Staring Node.js ${{ matrix.node-version }}
+        working-directory: ./JS
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
