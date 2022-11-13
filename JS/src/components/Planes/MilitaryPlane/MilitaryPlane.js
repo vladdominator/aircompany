@@ -1,4 +1,4 @@
-const Plane = require('../Plane');
+const Plane = require('../Plane.js');
 
 class MilitaryPlane extends Plane {
   constructor (model, maxSpeed, maxFlightDistance, maxLoadCapacity, militaryType) {

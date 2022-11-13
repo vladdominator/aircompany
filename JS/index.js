@@ -1,10 +1,10 @@
-const MilitaryPlane = require('./src/components/Planes/MilitaryPlane/MilitaryPlane');
-const PassengerPlane = require('./src/components/Planes/PassengerPlane/PassengerPlane');
-const Airport = require('./src/components/Airport/Airport');
-const MilitaryType = require('./src/models/MilitaryType');
-const ExperimentalPlane = require('./src/components/Planes/ExperimentalPlane/ExperimentalPlane');
-const ExperimentalTypes = require('./src/models/ExperimentalTypes');
-const ClassificationLevel = require('./src/models/ClassificationLevel');
+const MilitaryPlane = require('./src/components/Planes/MilitaryPlane/MilitaryPlane.js');
+const PassengerPlane = require('./src/components/Planes/PassengerPlane/PassengerPlane.js');
+const Airport = require('./src/components/Airport/Airport.js');
+const MilitaryType = require('./src/models/MilitaryType.js');
+const ExperimentalPlane = require('./src/components/Planes/ExperimentalPlane/ExperimentalPlane.js');
+const ExperimentalTypes = require('./src/models/ExperimentalTypes.js');
+const ClassificationLevel = require('./src/models/ClassificationLevel.js');
 
 const bootstrap = () => {
   let planes = [
